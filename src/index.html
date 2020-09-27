@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="violet-block">
+      <div class="block-logo">
+        <img src="<%=require('./assets/images/logo.png').default%>" alt="logo">
+      </div>
+      <h1>Maintaining <span class="text-grey">and </span>promoting <span class="text-grey">the rule of law throughout the Commonwealth.</span></h1>
+      <div class="block-auth">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="auth">Become a member</a>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">CLA Online</a></li>
+        <li><a href="">News & Events</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Magazine</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="block-slider">
+    <div class="slider">
+      <!--        The dots/circles-->
+      <div class="block-dots" style="text-align:left">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade" style="display: block">
+          <div class="slide-1"></div>
+          <div class="slider-content">
+            <div class="slider-content__title">
+              <div class="slider-content__event"><span>Forthcoming Events</span></div>
+              <br>
+              <h2><span class="violet-title">21st Commonwealth
+              <span class='spacer'></span><br/><span class='spacer'></span>
+              Law Conferegnce</span></h2>
+            </div>
+            <p>08-12 April 2019, Africa</p>
+            <p>The Rule of Law in Retreat? Challenges for the Modern Commonwealth.</p>
+            <div class="slider-content__sponsors">
+              <div class="slider-content__sponsors_text">
+                <span>Our Sponsors</span>
+              </div>
+              <div class="slider-content__sponsors_logo">
+                <img src="<%=require('./assets/images/LexisNexis.png').default%>" alt="LexisNexis">
+                <img src="<%=require('./assets/images/Citadel-Law-Logo-Updated.png').default%>" alt="Citadel-Law-Logo-Updated">
+                <img src="<%=require('./assets/images/Legal-Logo-7.png').default%>" alt="Legal-Logo-7">
+                <img src="<%=require('./assets/images/SarjiLawFirm-Logo.png').default%>" alt="SarjiLawFirm-Logo">
+                <img src="<%=require('./assets/images/compel.png').default%>" width="122" height="17" alt="compel">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slide-2"></div>
+          <div class="slider-content">
+            <div class="slider-content__title">
+              <div class="slider-content__event"><span>Projects</span></div>
+              <br>
+              <h2><span class="violet-title">Cyber-crime</span></h2>
+            </div>
+            <p>08-12 April 2019, Africa</p>
+            <p>The Rule of Law in Retreat? Challenges for the Modern Commonwealth.</p>
+            <div class="slider-content__sponsors">
+              <div class="slider-content__sponsors_text">
+                <span>Our Sponsors</span>
+              </div>
+              <div class="slider-content__sponsors_logo">
+                <img src="<%=require('./assets/images/LexisNexis.png').default%>" alt="LexisNexis">
+                <img src="<%=require('./assets/images/Citadel-Law-Logo-Updated.png').default%>" alt="Citadel-Law-Logo-Updated">
+                <img src="<%=require('./assets/images/Legal-Logo-7.png').default%>" alt="Legal-Logo-7">
+                <img src="<%=require('./assets/images/SarjiLawFirm-Logo.png').default%>" alt="SarjiLawFirm-Logo">
+                <img src="<%=require('./assets/images/compel.png').default%>" width="122" height="17" alt="compel">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slide-3"></div>
+          <div class="slider-content">
+            <div class="slider-content__title">
+              <div class="slider-content__event"><span>Forthcoming Events</span></div>
+              <br>
+              <h2><span class="blue">Blasphemy Legislation
+              <span class='spacer'></span><br/><span class='spacer'></span>
+              in the Commonwealth </span></h2>
+            </div>
+            <p>In 2012 CLA identified some concerns regarding the <br>increasing use of blasphemy legislation in the
+              <br>Commonwealth.</p>
+            <div class="slider-content__sponsors">
+              <div class="slider-content__sponsors_text">
+                <span>Our Sponsors</span>
+              </div>
+              <div class="slider-content__sponsors_logo">
+                <img src="<%=require('./assets/images/LexisNexis.png').default%>" alt="LexisNexis">
+                <img src="<%=require('./assets/images/Citadel-Law-Logo-Updated.png').default%>" alt="Citadel-Law-Logo-Updated">
+                <img src="<%=require('./assets/images/Legal-Logo-7.png').default%>" alt="Legal-Logo-7">
+                <img src="<%=require('./assets/images/SarjiLawFirm-Logo.png').default%>" alt="SarjiLawFirm-Logo">
+                <img src="<%=require('./assets/images/compel.png').default%>" width="122" height="17" alt="compel">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slide-4"></div>
+          <div class="slider-content">
+            <div class="slider-content__title">
+              <div class="slider-content__event"><span>Projects</span></div>
+              <br>
+              <h2><span class="grey">The Death Penalty</span></h2>
+            </div>
+            <p>08-12 April 2019, Africa</p>
+            <p>The Rule of Law in Retreat? Challenges for the Modern Commonwealth.</p>
+            <div class="slider-content__sponsors">
+              <div class="slider-content__sponsors_text">
+                <span>Our Sponsors</span>
+              </div>
+              <div class="slider-content__sponsors_logo">
+                <img src="<%=require('./assets/images/LexisNexis.png').default%>" alt="LexisNexis">
+                <img src="<%=require('./assets/images/Citadel-Law-Logo-Updated.png').default%>" alt="Citadel-Law-Logo-Updated">
+                <img src="<%=require('./assets/images/Legal-Logo-7.png').default%>" alt="Legal-Logo-7">
+                <img src="<%=require('./assets/images/SarjiLawFirm-Logo.png').default%>" alt="SarjiLawFirm-Logo">
+                <img src="<%=require('./assets/images/compel.png').default%>" width="122" height="17" alt="compel">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#" class="nav-item active-item" onmouseover="currentSlide(1)">21st Commonwealth Law</a></li>
+        <li><a href="#" class="text-grey">Projects</a></li>
+        <li><a href="#" class="nav-item" onmouseover="currentSlide(2)">Cyber-crime</a></li>
+        <li><a href="#" class="nav-item" onmouseover="currentSlide(3)">Blasphemy Legislation in the</a></li>
+        <li><a href="#" class="nav-item" onmouseover="currentSlide(4)">The Death Penalty</a></li>
+      </ul>
+    </div>
+  </section>
+  <section id="block-welcome" class="w-1170">
+    <div class="sponsors">
+      <p align="center" class="text-violet">Our Sponsors</p>
+      <div class="sponsors-logo">
+        <img src="<%=require('./assets/images/sponsor-1.png').default%>">
+        <img width="120" height="40" src="<%=require('./assets/images/sponsor-2.png').default%>">
+      </div>
+    </div>
+    <div class="welcome_text">
+      <p class="text-violet title">Welcome</p>
+      <p class="article">The Commonwealth Lawyers' Association (CLA) exists to maintain and promote the rule of law throughout the Commonwealth by ensuring that an independent and efficient legal profession serves the people of the Commonwealth.</p>
+      <p class="find-more button"><a href="#">Find out more</a> </p>
+    </div>
+    <div class="welcome_list">
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Objectives</a></li>
+        <li><a href="#">Secretariat</a></li>
+        <li><a href="#">Sponsorship Opportunities</a></li>
+        <li><a href="#">Contribute Article</a></li>
+      </ul>
+    </div>
+    <div class="welcome_banner">
+      <img src="<%=require('./assets/images/welcome_banner.png').default%>" width="250" height="210" alt="girls not brides">
+      <p align="center">Download Here</p>
+    </div>
+  </section>
+  <section id="block-get-started">
+    <div class="w-1170">
+      <div class="block-get-started__content">
+        <h3>Get Started & Become A Member</h3>
+        <p>Join <span class="text-orange">1,254</span> Law Professionals <span class="text-grey">across the commonwealth and contribute to our mission.</span></p>
+        <p class="member button"><a href="#">Become a member</a></p>
+        <ul>
+          <li><img src="<%=require('./assets/images/icon-globus.png').default%>" alt=""><span>Connect and share <b class="text-grey">with members across the Commonwealth</b></span></li>
+          <li><img src="<%=require('./assets/images/icon-certificate.png').default%>" alt=""><span><b class="text-grey">Access to regular </b>articles and insight</span></li>
+          <li><img src="<%=require('./assets/images/icon-spiker.png').default%>" alt=""><span><b class="text-grey">Invites to</b> exclusive events and seminars</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="block-news" class="w-1170">
+    <h3 class="text-violet"><span>Latest Association News</span> <span class="view-all">View All</span></h3>
+    <div class="block-news__content">
+      <div class="post">
+        <img src="<%=require('./assets/images/Image_95.png').default%>">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/Image_97.png').default%>">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/Image_91.png').default%>" alt="">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/Image_93.png').default%>" alt="">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/Image_96.png').default%>" alt="">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/Image_92.png').default%>" alt="">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <p class="find-more button view-btn"><a href="#">View All</a></p>
+    </div>
+  </section>
+  <section id="block-bank">
+    <div class="w-1170">
+      <div class="bank_content">
+        <img src="<%=require('./assets/images/african_bank.png').default%>">
+        <h4>Rise of Crypto: What should we be concerned about?</h4>
+        <p align="center">Expert insights</p>
+      </div>
+      <img class="bank_img" src="<%=require('./assets/images/bitcoin.png').default%>">
+      <div class="bank_img__mobile">
+        <img src="<%=require('./assets/images/bitcoin.png').default%>">
+      </div>
+    </div>
+  </section>
+  <section id="block-events" class="w-1170">
+    <h3 class="text-violet"><span>Forthcoming Events </span><span class="view-all">View All</span></h3>
+    <div class="block-event__content">
+      <div class="post">
+        <img src="<%=require('./assets/images/event-1.png').default%>">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/event-2.png').default%>">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/event-3.png').default%>" alt="">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <img src="<%=require('./assets/images/event-4.png').default%>" alt="">
+        <div class="post-content">
+          <div class="post-text">
+            <p class="text-orange">Europe</p>
+            <h4>Now the judges agree - the vote for Brexit was clearly tainted</h4>
+          </div>
+          <div class="post-date">
+            <span>March 22, 2019</span>
+            <span>22</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content w-1170">
+      <div class="block-logo">
+        <img src="<%=require('./assets/images/logo-footer.png').default%>" alt="logo">
+      </div>
+      <div class="footer-about">
+        <ul>
+          <li><a class="text-violet" href="#">About CLA</a></li>
+          <li><a href="#">Hubs</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Secretariat</a></li>
+          <li><a href="#">Objectives</a></li>
+          <li><a href="#">Helpful Links</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <ul>
+          <li><a href="#">CLA Online</a></li>
+          <li><a href="#">News & Events</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Magazine</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-form">
+        <p class="text-violet">Newsletter Signup</p>
+        <input type="text" placeholder="Enter email">
+        <p class="text-grey">Cras interdum lorem ac molestie ullamcorper. Nam urna elit, cursus nec sagittis eu, sollicitudin non lectus. Vivamus eu iaculis tellus. In ha</p>
+      </div>
+    </div>
+    <div class="copyright w-1170">
+      <p>Copyright © Commonwealth Lawyer Association 2019. Commonwealth Lawyer Association is registered in England No. 00000000. VAT No. 000 0000 00. Commonwealth Lawyer Association are regulated by the Financial Conduct Authority, Consumer Credit Licence Number 000000. Cookie Policy  |  Privacy Policy  |  Terms and Conditions</p>
+    </div>
+  </footer>
+  <script>
+    let slideIndex = 1;
+
+    let timerId = setTimeout(function tick() {
+      slideIndex++
+      showSlides(slideIndex);
+      timerId = setTimeout(tick, 5000);
+    }, 5000);
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      let menu = document.getElementsByClassName("nav-item")
+
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        menu[i].className = menu[i].className.replace(" active-item", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      menu[slideIndex-1].className += " active-item";
+    }
+  </script>
+</body>
+</html>
